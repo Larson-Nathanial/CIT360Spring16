@@ -1,3 +1,5 @@
+
+
 “Some applications contain a significant amount of logic about the screens to use at different points, 
 which may involve invoking certain screens at certain times in an application. 
 This is the wizard style of interaction, where the user is led through a series of screens in a certain order. 
@@ -11,3 +13,5 @@ need to know what to do in a certain situation.
 You can remove this duplication by placing all the flow logic in an Application Controller. 
 Input controllers then ask the Application Controller for the appropriate commands for execution against a 
 model and the correct view to use depending on the application context.”
+
+
