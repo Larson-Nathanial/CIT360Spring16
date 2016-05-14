@@ -11,4 +11,18 @@ package application.controller.pattern;
  */
 public class ApplicationController {
     
+    AnotherClass anotherClass = new AnotherClass();
+    
+    public String PickClass(String item) {
+        
+        if (item == "new") {
+            return anotherClass.findNew();
+        }else {
+            return anotherClass.findOld();
+        }
+        
+    }
+    
 }
+
+
