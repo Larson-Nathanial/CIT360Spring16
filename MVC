@@ -1,0 +1,16 @@
+MVC pattern
+
+This is another pattern that is used in architecture of software products.
+
+It is the idea of seperating the pieces of an application into three distinct parts - Model, View and Controller.
+
+In a typical pattern, the View is responsible for displaying content to the User.  The User interacts with the controller, 
+which will talk to the Model, which will update the view.
+
+It can be kind of confusing to understand especially because most applications don't follow just one architectural approach
+or even a defined architectural approach at all, in the real world. 
+
+Here is a link to a diagram that shows what a typical MVC pattern looks like:
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/500px-MVC-Process.svg.png
+
