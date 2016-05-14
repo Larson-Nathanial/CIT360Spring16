@@ -10,5 +10,9 @@ package mvc.example;
  * @author nathanlarson
  */
 public class Model {
-    
+    MVCExample ex = new MVCExample();
+            
+    public void showAString() {
+        ex.displayAString();
+    }
 }
